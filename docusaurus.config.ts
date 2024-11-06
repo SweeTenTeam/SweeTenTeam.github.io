@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SweeTenTeam', // Usually your GitHub org/user name.
-  projectName: 'SweeTenTeam.github.io', // Usually your repo name.
+  projectName: 'sweetenteam.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -41,7 +41,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-
         },
         theme: {
           customCss: './src/css/custom.css',
