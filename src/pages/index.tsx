@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout>
       <header>
-        <h1 id='header' className='title'>SweeTen Team</h1>
+        <h1 id='header' className='titleH'>SweeTen Team</h1>
       </header>
       <main>
         <p id='main-par' className='par'>Questo sito racchiude tutta la documentazione prodotta durante lo svolgimento del progetto di ingegneria del software dal gruppo 10: SweeTen Team durante l'anno accademico 2024/25.</p>

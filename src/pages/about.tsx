@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from '@theme/Layout'
 import Card from '../components/Card'
-import Azzurro from '../components/Azzurro';
-
 
 
 function About() {
@@ -22,12 +20,12 @@ function About() {
         <Layout>
             <main id='about-main'>
                 <section>
-                    <h2 className='title'>SweeTen Team</h2>
+                    <h2 className='titleH'>SweeTen Team</h2>
                     <p className='par'>Gruppo 10 del progetto di Ingegneria del Software dell'Università Di Padova. A./A. 2024/2025 </p>
                 </section>
 
                 <section>
-                    <h4 className='title'>Il Capitolato</h4>
+                    <h4 className='titleH'>Il Capitolato</h4>
                     <p className='par'>Il gruppo ha scelto il Capitolato C9, proposto da <a href="https://www.azzurrodigitale.com/">Azzurro Digitale</a>. Il progetto consiste nello sviluppo di BuddyBot, un ChatBot interno che aiuti i dipendenti in varie task.</p>
                     <br />
                     <p className='par'>Una descrizione più dettagliata si può trovare visionando il pdf di presentazione del capitolato <a href='https://www.math.unipd.it/~tullio/IS-1/2024/Progetto/C9p.pdf'>qui</a>.</p>
@@ -43,7 +41,7 @@ function About() {
                 </div>
 
                 <div className='Contatti'>
-                    <h2 className='title'>Contatti</h2>
+                    <h2 className='titleH'>Contatti</h2>
                     <p className='par'>Per contattarci usare la mail di riferimento del gruppo: <a href='mailto:sweetenteam@gmail.com'>sweetenteam@gmail.com</a></p>
 
                 </div>
