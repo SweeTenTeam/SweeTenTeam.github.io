@@ -19,7 +19,7 @@ export default function Home(): JSX.Element {
 
 
         <div id='link-div'>
-          <Link id='link' href='/docs/page1'>Vai alla documentazione</Link>
+          <Link id='link' href='/docs/intro'>Vai alla documentazione</Link>
         </div>
         <div className='wip'>
           The rest is Coming Soon...
