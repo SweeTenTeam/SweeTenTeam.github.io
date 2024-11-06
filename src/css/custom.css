@@ -53,6 +53,7 @@ header {
   height: 5em;
   background-color: var(--ifm-color-primary-darker);
   text-align: center;
+  color: white;
 }
 
 #main-par {
@@ -88,6 +89,7 @@ header {
 
 #card:hover {
   transform: translateY(-5px);
+  background-color: var(--ifm-color-primary-light);
   /* Lift effect on hover */
 }
 
@@ -104,10 +106,19 @@ header {
   color: white;
 }
 
+
 .titleH {
   text-align: center;
   font-size: 2em;
   margin-top: 0.5em;
+}
+
+
+[data-theme="light"] .titleH {
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme="dark"] .titleH {
   color: var(--ifm-color-primary);
 }
 
@@ -139,12 +150,25 @@ section {
 }
 
 #link {
-  border: 1px solid var(--ifm-color-primary);
+  width: 15%;
+  min-width: 10em;
+  border: 1px solid var(--ifm-color-primary-dark);
   padding: 1em;
   margin: 2em;
   border-radius: 15px;
   transition: transform .5s ease-out;
+  text-align: center;
 }
+
+[data-theme="light"] #link {
+  color: var(--ifm-color-primary-dark);
+}
+
+[data-theme="dark"] #link {
+  color: var(--ifm-color-primary);
+}
+
+
 
 #link:hover {
   text-decoration: none;
@@ -173,7 +197,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25%;
+  width: 40%;
+  min-width: 20em;
   border: 1px solid var(--ifm-color-primary);
   padding: 1em;
   border-radius: 15px;
