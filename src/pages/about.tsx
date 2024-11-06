@@ -6,13 +6,13 @@ import Card from '../components/Card'
 function About() {
     // Define an array of objects for each card
     const SweeTenTeam = [
-        { name: 'Valeri Mihail', surname: 'Belenkov', mat: '2068232', mail: 'valeri.belenkov@example.com' },
-        { name: 'Davide', surname: 'Benedetti', mat: '2042339', mail: 'davide.benedetti@example.com' },
-        { name: 'Matteo', surname: 'Campagnaro', mat: '2068243', mail: 'matteo.campagnaro@example.com' },
-        { name: 'Orlando', surname: 'Ferazzani', mat: '2058653', mail: 'orlando.ferazzani@example.com' },
-        { name: 'Nicolas', surname: 'Fracaro', mat: '2076420', mail: 'nicolas.fracaro@example.com' },
-        { name: 'Mouad', surname: 'Mahdi', mat: '2044222', mail: 'mouad.mahdi@example.com' },
-        { name: 'Andrea', surname: 'Santi', mat: '2084624', mail: 'andrea.santi@example.com' }
+        { name: 'Valeri Mihail', surname: 'Belenkov', mat: '2068232', mail: 'valerimihail.belenkov@studenti.unipd.it' },
+        { name: 'Davide', surname: 'Benedetti', mat: '2042339', mail: 'davide.benedetti.4@studenti.unipd.it' },
+        { name: 'Matteo', surname: 'Campagnaro', mat: '2068243', mail: 'matteo.campagnaro.1@studenti.unipd.it' },
+        { name: 'Orlando', surname: 'Ferazzani', mat: '2058653', mail: 'orlandovirgiliomaria.ferazzani@studenti.unipd.it' },
+        { name: 'Nicolas', surname: 'Fracaro', mat: '2076420', mail: 'nicolas.fracaro@studenti.unipd.it' },
+        { name: 'Mouad', surname: 'Mahdi', mat: '2044222', mail: 'mouad.mahdi@studenti.unipd.it' },
+        { name: 'Andrea', surname: 'Santi', mat: '2084624', mail: 'andrea.santi.5@studenti.unipd.it' }
     ];
 
 
