@@ -22,8 +22,8 @@ export default function Home(): JSX.Element {
           <Link id='link' href='/docs/intro'>Vai alla documentazione</Link>
         </div>
         <div className='wip'>
-          The rest is Coming Soon...
-          <Link id='link' href='https://github.com/SweeTenTeam'>Vai alla Repo</Link>
+          RTB
+          <Link id='link' href='https://github.com/SweeTenTeam/Docs/tree/master/documents/2-RTB'>RTB</Link>
         </div>
       </main>
     </Layout>
