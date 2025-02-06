@@ -73,6 +73,11 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          to: 'docs/RTB/Documentazione_Interna/Glossario',
+          label: 'Glossario',
+          position: 'left'
+        }
       ],
     },
     footer: {
