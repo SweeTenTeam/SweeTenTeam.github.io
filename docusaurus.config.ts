@@ -64,6 +64,11 @@ const config: Config = {
           label: 'Documentazione',
         },
         {
+          to: 'docs/RTB/Glossario',
+          label: 'Glossario',
+          position: 'left'
+        },
+        {
           to: 'about',
           label: 'About',
           position: 'left'
@@ -72,11 +77,6 @@ const config: Config = {
           href: 'https://github.com/SweeTenTeam/Docs',
           label: 'GitHub',
           position: 'right',
-        },
-        {
-          to: 'docs/RTB/Documentazione_Interna/Glossario',
-          label: 'Glossario',
-          position: 'left'
         }
       ],
     },
