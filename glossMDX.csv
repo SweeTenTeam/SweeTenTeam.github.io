@@ -1,3 +1,4 @@
+Term, Definition
 Agile,"La programmazione Agile è caratterizzata da uno sviluppo iterativo e incrementale. Si concentra sulla realizzazione di un MVP il più rapidamente possibile, ottenendo un feedback continuo dai clienti e rispondendo ai cambiamenti dei requisiti o della tecnologia."
 Amministratore,"Un amministratore è una persona responsabile del controllo e dell'amministrazione dell'ambiente di lavoro utilizzato dal gruppo ed è anche il punto di riferimento per quanto concerne le norme di progetto. Le sue principali mansioni sono: affrontare e risolvere le problematiche associate alla gestione dei processi; gestire l'archiviazione e le versioni della documentazione; gestire la configurazione del prodotto; redigere ed attuare le norme e le procedure per la gestione della qualità; amministrare le infrastrutture e i servizi per i processi di supporto."
 Analisi dei Requisiti,"L'analisi dei requisiti è una fase fondamentale nello sviluppo del software, che coinvolge la raccolta, l'analisi, la documentazione e la comprensione approfondita delle esigenze e delle specifiche di un sistema o di un'applicazione software che si intende sviluppare (oltre ad essere un documento all'interno del nostro progetto)."
@@ -8,8 +9,10 @@ Bad practice,"Pratica o comportamento inefficiente o dannoso che si allontana da
 Baseline,"Un punto di riferimento definito, utilizzato per confrontare e tracciare i progressi di un progetto."
 Best Practice,"Un insieme di metodi o approcci riconosciuti come i più efficaci e affidabili per raggiungere un obiettivo. Le best practice sono spesso basate su esperienze consolidate e standard del settore."
 Branch,"Un branch è una linea indipendente di sviluppo all'interno di un repository. Consente di creare una copia separata del codice principale (solitamente chiamato main o master) per lavorare su nuove funzionalità, correzioni di bug o esperimenti, senza modificare il codice stabile."
+BuddyBot, "Un chatbot che aiuta a trovare risorse e informazioni all'interno di un team o di un'organizzazione."
 Budget at Completion,"Il totale dei costi previsti per completare un progetto secondo il piano originale."
 Bug,"Un errore o malfunzionamento in un programma software che causa risultati imprevisti o indesiderati. I bug possono derivare da errori di programmazione, progettazione o configurazione."
+Branch, "Un branch è una linea indipendente di sviluppo all'interno di un repository. Consente di creare una copia separata del codice principale (solitamente chiamato main o master) per lavorare su nuove funzionalità, correzioni di bug o esperimenti, senza modificare il codice stabile."
 camelCase,"Uno stile di scrittura di identificatori simile a PascalCase, ma con la prima parola in lettere minuscole e le successive con iniziali maiuscole. Esempio: `myVariableName`."
 Capitolato,"Documento che contiene le specifiche e le condizioni per lo sviluppo di un progetto software. II capitolato viene redatto dal proponente e viene presentato ai fornitori o agli sviluppatori interessati a partecipare all'appalto per la realizzazione del prodotto software."
 Chat,"Una conversazione in tempo reale tra due o più persone su internet."
@@ -41,6 +44,7 @@ Glossario,"Elenco strutturato di termini tecnici o specializzati, ognuno correda
 Gmail,"Servizio di posta elettronica fornito da Google."
 Google Calendar,"Servizio di calendario online di Google che consente di organizzare eventi e appuntamenti."
 Google Meet,"Piattaforma di videoconferenze online sviluppata da Google."
+Groq Cloud, "Piattaforma di sviluppo basata su cloud per la creazione di applicazioni web e servizi API."
 GUI (Graphical User Interface),"Una GUI (acronimo di Graphical User Interface, in italiano Interfaccia Grafica Utente) è un'interfaccia che consente agli utenti di interagire con un sistema informatico o un software attraverso elementi visivi e grafici, anziché utilizzare solo comandi testuali o linee di comando."
 IA (Intelligenza Artificiale),"Un campo di studio in cui le macchine e i computer sono progettati per eseguire compiti che solitamente richiedono intelligenza umana, come riconoscere modelli, apprendere e prendere decisioni."
 Inspection,"Una tecnica formale di revisione del software in cui un team analizza codice o documentazione per identificare errori o incongruenze rispetto agli standard. L'ispezione include solitamente un moderatore, lettori e un protocollo definito."

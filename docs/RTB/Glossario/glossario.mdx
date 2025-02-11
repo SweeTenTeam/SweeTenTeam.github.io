@@ -9,11 +9,12 @@ import Tag from "@theme/Tag";
 Versione: <p className="hidden">v1.0</p> <Tag label={"v1.0"} />
 
 <Button
+  id="dwbtn"
   variant="outlined"
   sx={{ backgroundColor: "transparent" }}
   startIcon={<GithubIcon />}
   href={
-    "https://raw.githubusercontent.com/SweeTenTeam/Docs/master/documents/2-RTB/Documentazione_Esterna/Glossario_v0.3.pdf"
+    "https://raw.githubusercontent.com/SweeTenTeam/Docs/master/documents/2-RTB/Documentazione_Interna/Glossario_v1.0.pdf"
   }
 >
   Scarica da Github
@@ -69,17 +70,18 @@ Un branch è una linea indipendente di sviluppo all'interno di un repository. Co
 
 Assistente virtuale in forma di chatbot capace di reperire informazioni da diverse fonti (GitHub, Confluence e Jira) e di fornire supporto e assistenza ai membri del team.
 
-### Budget At Completion
+<a id="budget-at-completion"></a> <a id="bac"></a>
+### Budget At Completion (BAC)
 
 "Il totale dei costi previsti per completare un progetto secondo il piano originale.
-
-### Bug
-
-Un errore o malfunzionamento in un programma software che causa risultati imprevisti o indesiderati. I bug possono derivare da errori di programmazione, progettazione o configurazione.
 
 ### Branch
 
 Un branch è una linea indipendente di sviluppo all'interno di un repository. Consente di creare una copia separata del codice principale (solitamente chiamato main o master) per lavorare su nuove funzionalità, correzioni di bug o esperimenti, senza modificare il codice stabile.
+
+### Bug
+
+Un errore o malfunzionamento in un programma software che causa risultati imprevisti o indesiderati. I bug possono derivare da errori di programmazione, progettazione o configurazione.
 
 ## C
 
@@ -160,13 +162,13 @@ Un approccio alla documentazione che tratta i documenti come codice sorgente, ar
 
 ## F
 
-### Feature branch
-
-Ramificazione temporanea di un repository Git in cui vengono sviluppate nuove funzionalità o modifiche, per poi essere integrate nel ramo principale.
-
 ### Feature
 
 Funzionalità specifica di un software, caratterizzata da un insieme di comportamenti che soddisfano determinati requisiti.
+
+### Feature branch
+
+Ramificazione temporanea di un repository Git in cui vengono sviluppate nuove funzionalità o modifiche, per poi essere integrate nel ramo principale.
 
 ### Feedback
 
@@ -351,10 +353,7 @@ Un product owner supervisiona lo sviluppo di un prodotto software. È il membro 
 
 Il progettista è la figura di riferimento per quanto riguarda le scelte progettuali partendo dal lavoro dell'analista. Spetta al progettista assumere decisioni di natura tecnica e tecnologica, oltre a supervisionare il processo di sviluppo. Tuttavia, non è responsabile della manutenzione del prodotto. In particolare si occupa di: progettare l'architettura del prodotto secondo specifiche tecniche dettagliate; prendere decisioni per sviluppare soluzioni che soddisfino i criteri di affidabilità, efficienza, sostenibilità e conformità ai requisiti; redige la Specifica Architetturale e la parte pragmatica del Piano di Qualifica.
 
-### Proponente
-
-Il proponente è la persona o l'organizzazione che presenta un capitolato d'appalto per la realizzazione di un progetto software. Il proponente definisce i requisiti e le specifiche del progetto e valuta le proposte dei fornitori o degli sviluppatori interessati a partecipare all'appalto.
-
+<a id="programmatori"></a>
 ### Programmatore
 
 Il programmatore è la figura professionale incaricata della scrittura del codice software. Il suo compito primario è implementare il codice conformemente alle specifiche fornite dall'analista e all'architettura definita dal progettista. In particolare, il programmatore: scrive codice manutenibile in conformità con le Specifiche Tecniche; codifica le varie componenti dell'architettura seguendo quanto ideato dai progettisti; realizza gli strumenti per verificare e validare il codice; redige il Manuale Utente.
@@ -377,6 +376,11 @@ Persona responsabile della pianificazione, esecuzione e conclusione di un proget
 Dimostrazione pratica per verificare la fattibilità o la validità di un'idea, di un concetto o di un progetto specifico. Nel contesto dello sviluppo software, un PoC consiste nella creazione di una versione semplificata di un'applicazione per testare un nuovo approccio tecnologico o per dimostrare la fattibilità di una funzionalità specifica.
 
 <a id="pull-request"></a> <a id="pr"></a>
+
+### Proponente
+
+Il proponente è la persona o l'organizzazione che presenta un capitolato d'appalto per la realizzazione di un progetto software. Il proponente definisce i requisiti e le specifiche del progetto e valuta le proposte dei fornitori o degli sviluppatori interessati a partecipare all'appalto.
+
 ### Pull Request (PR)
 
 Una Pull Request (PR) è una richiesta che un sviluppatore invia per proporre modifiche al codice di un progetto in un repository, tipicamente su piattaforme di versionamento del codice come GitHub, GitLab o Bitbucket. La PR permette ad altri membri del team o ai manutentori del progetto di revisionare il codice proposto prima che venga integrato nel ramo principale (di solito chiamato main o master).
@@ -389,6 +393,7 @@ Database vettoriale per la gestione di vettori e dati in spazi metrici, utilizza
 
 ## R
 
+<a id="repo"> </a>
 ### Repository
 
 Un repository (o repo) è un archivio digitale che contiene file, cartelle e informazioni relative al progetto, inclusi il codice sorgente, la documentazione e la cronologia delle modifiche. È uno spazio organizzato, solitamente gestito tramite un sistema di controllo versione come Git, dove i file sono archiviati e tenuti sotto controllo, permettendo di monitorare le modifiche nel tempo. I repository sono usati per gestire il ciclo di vita di un progetto software, facilitando la collaborazione tra sviluppatori e il versionamento del codice. I repository possono essere locali (sul proprio computer) o remoti (su piattaforme come GitHub, GitLab, Bitbucket).
