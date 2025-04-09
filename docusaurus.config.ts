@@ -64,7 +64,7 @@ const config: Config = {
           label: 'Documentazione',
         },
         {
-          to: 'docs/RTB/Glossario',
+          to: 'docs/PB/Glossario',
           label: 'Glossario',
           position: 'left'
         },
