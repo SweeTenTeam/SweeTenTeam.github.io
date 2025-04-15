@@ -5,6 +5,6 @@ sidebar_position: 0
 
 ## Indice
 
-- [Candidatura](Candidatura)
-- [RTB](RTB)
-- [PB](PB)
+1. [Vai alla PB](PB)
+2. [Vai alla RTB](RTB)
+3. [Vai alla Candidatura](Candidatura)
