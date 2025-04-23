@@ -667,13 +667,18 @@
 			<script src="../../../../assets/js/util.js"></script>
 			<script src="../../../../assets/js/main.js"></script>
 			<script>
-				document.addEventListener("DOMContentLoaded", function () {
+				window.addEventListener("load", function () {
 					if (window.location.hash) {
 						const target = document.querySelector(window.location.hash);
 						if (target) {
-							setTimeout(() => {
-								target.scrollIntoView({ behavior: "smooth" });
-							}, 1000); // Ritardo per assicurarsi che tutto sia caricato
+							const headerOffset = document.querySelector("#header")?.offsetHeight || 0;
+							const elementPosition = target.getBoundingClientRect().top + window.scrollY;
+							const offsetPosition = elementPosition - headerOffset;
+			
+							window.scrollTo({
+								top: offsetPosition,
+								behavior: "smooth"
+							});
 						}
 					}
 				});
