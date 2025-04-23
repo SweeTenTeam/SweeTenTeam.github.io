@@ -3,7 +3,7 @@
 </p> -->
 <h1 align="center">Gruppo SweeTen Team</h1>
 
-<p align="center">Repository per la documentazione relativa al progetto del corso <br><em>Ingegneria del Software - 2024/2025</em></p>
+<p align="center">Repository del sito della documentazione relativa al progetto del corso <br><em>Ingegneria del Software - 2024/2025</em></p>
 
 <h2 align="center">Componenti del gruppo:</h2>
 
