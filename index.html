@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SweeTen Team</title>
+		<meta charset="utf-8" />
+		<link rel="icon" href="images/sweetenteam.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+			function togglePB() {
+			const list = document.getElementById('pb');
+			const arrow = document.getElementById('arrowPB');
+			list.classList.toggle('visible');
+			arrow.textContent = list.classList.contains('visible') ? '▼' : '▶';
+			}
+		</script>
+		<script>
+			function toggleRTB() {
+			const list = document.getElementById('rtb');
+			const arrow = document.getElementById('arrowRTB');
+			list.classList.toggle('visible');
+			arrow.textContent = list.classList.contains('visible') ? '▼' : '▶';
+			}
+		</script>
+		<script>
+			function toggleC() {
+			const list = document.getElementById('candidatura');
+			const arrow = document.getElementById('arrowC');
+			list.classList.toggle('visible');
+			arrow.classList.toggle('open');
+			arrow.textContent = list.classList.contains('visible') ? '▼' : '▶';
+			}
+		</script>
+		<style>
+			.arrow {
+			  transition: transform 0.2s ease;
+			}
+
+			.listI{
+				border: none !important;
+				padding: 1em 1em 0 1em !important;
+			}
+
+			.listL{
+				border: none !important;
+				padding: 1em 1em 1em 1em !important;
+			}
+
+			.listI button, .listL button {
+				width: 100%; 
+				display: flex; 
+				justify-content: space-between;
+				font-size: 1.5em;
+			}
+
+			.list {
+			  display: none;
+			  border: solid; 
+			  padding: 0.5em 0.7em;
+			}
+		
+			.list.visible {
+			  display: block;
+			}
+
+			.list .listCont{
+				display: flex;
+				flex-direction: row;
+			}
+
+			.list .listCont .line{
+				background-color: black;
+				 width: 0.4em;
+				  margin-bottom: 1em;
+			}
+
+			.list li{
+				display: flex;
+				flex-direction: column;
+				width:100%;
+				padding: 0;
+			}
+
+			.list a{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				width:100%;
+				border:solid;
+				border-radius: 1em;
+				margin-top: 0.5em;
+				cursor: pointer;
+			}
+
+			.list a:visited{
+				color: #32004f;
+			}
+
+			.list h3{
+				margin: 0;
+			}
+
+			.list ul{
+				margin: 0;
+				padding-left: 0.5em;
+				margin-bottom: 1em;
+				list-style-type: none;
+				width: 100%;
+			}
+			.list ul a p{
+				margin: 0 1em;
+				font-size: 0.8em;
+				font-weight: bold;
+			}
+		  </style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>SweeTen <br /> Team</h1>
+						<p>Questo sito racchiude tutta la documentazione prodotta durante lo svolgimento del progetto </br></zbr>di ingegneria del software dal gruppo 10: SweeTen Team durante l'anno accademico 2024/25.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Documentazione</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html#header">Documentazione</a></li>
+							<li><a href="docs/PB/Documentazione_Interna/Glossario/index.html">Glossario</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="metriche.html">Metriche</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/SweeTenTeam/Docs" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<section class="listI">
+							<button onclick="togglePB()" class="button primary fit">
+							  <span>PB</span>
+							  <span id="arrowPB" class="arrow">▶</span>
+							</button>
+							<div id="pb" class="list">
+								<ul style="padding-left: 0;">
+									<li><a href="docs/PB/Lettera_di_Presentazione.pdf"  target="_blank" rel="noopener noreferrer" ><p>Lettera di Presentazione</p><p>v1.0</p></a></li>
+								</ul>
+								<h3>Documentazione Esterna</h3>
+								<div class="listCont">
+									<div class="line"></div>
+									<ul>
+										<li><a href="docs/PB/Documentazione_Esterna/Analisi_dei_Requisiti_v2.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Analisi dei Requisiti</p><p>v2.0.0</p></a></li>
+										<li><a href="docs/PB/Documentazione_Esterna/Manuale_Utente_v1.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Manuale Utente</p><p>v1.0.0</p></a></li>
+										<li><a href="docs/PB/Documentazione_Esterna/Piano_di_Progetto_v2.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Piano di Progetto</p><p>v2.0.0</p></a></li>
+										<li><a href="docs/PB/Documentazione_Esterna/Piano_di_Qualifica_v2.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Piano di Qualifica</p><p>v2.0.0</p></a></li>
+										<li><a href="docs/PB/Documentazione_Esterna/Specifica_Tecnica_v1.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Specifica Tecnica</p><p>v1.0.0</p></a></li>
+
+										<li>
+											<h3>Verbali Esterni</h3>
+											<div class="listCont">
+												<div class="line"></div>
+												<ul>
+													<li><a href="docs/PB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-04-15_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-04-15</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-04-08_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-04-08</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-04-01_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-04-01</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-03-25_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-03-25</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-03-18_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-03-18</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-03-11_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-03-11</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-03-04_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-03-04</p><p>v1.0</p></a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<h3>Documentazione interna</h3>
+								<div class="listCont">
+									<div class="line"></div>
+									<ul>
+										<li><a href="docs/PB/Documentazione_Interna/glossario_v2.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Glossario</p><p>v2.0</p></a></li>
+										<li><a href="docs/PB/Documentazione_Interna/Norme_di_Progetto_v2.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Norme di Progetto</p><p>v2.0.0</p></a></li>
+										<li>
+											<h3>Verbali Interni</h3>
+											<div class="listCont">
+												<div class="line"></div>
+												<ul>
+													<li><a href="docs/PB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-04-08_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2025-04-08</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-04-01_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2025-04-01</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-03-26_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2025-03-26</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-03-17_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2025-03-17</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-03-10_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2025-03-10</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-03-03_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2025-03-03</p><p>v1.0</p></a></li>
+													<li><a href="docs/PB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-02-24_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2025-02-24</p><p>v1.0</p></a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section class="listI">
+							<button onclick="toggleRTB()" class="button primary fit">
+							  <span>RTB</span>
+							  <span id="arrowRTB" class="arrow">▶</span>
+							</button>
+							<div id="rtb" class="list">
+								<ul style="padding-left: 0;">
+									<li><a href="docs/RTB/Lettera_di_Presentazione.pdf"  target="_blank" rel="noopener noreferrer" ><p>Lettera di Presentazione</p><p>v1.0</p></a></li>
+								</ul>
+								<h3>Documentazione Esterna</h3>
+								<div class="listCont">
+									<div class="line"></div>
+									<ul>
+										<li><a href="docs/RTB/Documentazione_Esterna/Analisi_dei_Requisiti_v1.1.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Analisi dei Requisiti</p><p>v1.1.0</p></a></li>
+										<li><a href="docs/RTB/Documentazione_Esterna/Piano_di_Progetto_v1.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Piano di Progetto</p><p>v1.0.0</p></a></li>
+										<li><a href="docs/RTB/Documentazione_Esterna/Piano_di_Qualifica_v1.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Piano di Qualifica</p><p>v1.0.0</p></a></li>
+										
+										<li>
+											<h3>Verbali Esterni</h3>
+											<div class="listCont">
+												<div class="line"></div>
+												<ul>
+													<li><a href="docs/RTB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-02-14_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-02-14</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-01-14_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-01-14</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2025-01-02_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-01-02</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2024-12-17_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-12-17</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2024-12-03_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-12-03</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2024-11-19_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-11-19</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Esterna/Verbali_Esterni/Verbale_Esterno_2024-11-12_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-11-12</p><p>v1.0</p></a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<h3>Documentazione interna</h3>
+								<div class="listCont">
+									<div class="line"></div>
+									<ul>
+										<li><a href="docs/RTB/Documentazione_Interna/Glossario_v1.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Glossario</p><p>v1.0</p></a></li>
+										<li><a href="docs/RTB/Documentazione_Interna/Norme_di_Progetto_v1.0.0.pdf"  target="_blank" rel="noopener noreferrer"><p>Norme di Progetto</p><p>v1.0.0</p></a></li>
+										<li>
+											<h3>Verbali Interni</h3>
+											<div class="listCont">
+												<div class="line"></div>
+												<ul>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-02-07_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-02-07</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-01-20_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-01-20</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2025-01-06_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2025-01-06</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2024-12-16_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-12-16</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2024-12-02_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-12-02</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2024-11-28_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-11-28</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2024-11-18_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-11-18</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2024-11-15_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-11-15</p><p>v1.0</p></a></li>
+													<li><a href="docs/RTB/Documentazione_Interna/Verbali_Interni/Verbale_Interno_2024-11-05_v1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-11-05</p><p>v1.0</p></a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section class="listL">
+							<button onclick="toggleC()" class="button primary fit">
+							  <span>Candidatura</span>
+							  <span id="arrowC" class="arrow">▶</span>
+							</button>
+							<div id="candidatura" class="list">
+								<ul style="padding-left: 0;">
+									<li><a href="docs/Candidatura/Dichiarazione_Degli_Impegni_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Dichiarazione degli Impegni</p><p>v1.0</p></a></li>
+									<li><a href="docs/Candidatura/Lettera_di_presentazione_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Lettera di Presentazione</p><p>v1.0</p></a></li>
+									<li><a href="docs/Candidatura/Valutazione_Capitolati_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Valutazione Capitolati</p><p>v1.0</p></a></li>
+									<li>
+										<h3>Verbali Esterni</h3>
+										<div class="listCont">
+											<div class="line"></div>
+											<ul>
+												<li><a href="docs/Candidatura/Verbali_Esterni/Verbale_Esterno_2024-10-28_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-10-28</p><p>v1.0</p></a></li>
+												<li><a href="docs/Candidatura/Verbali_Esterni/Verbale_Esterno_2024-10-25_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-10-25</p><p>v1.0</p></a></li>
+												<li><a href="docs/Candidatura/Verbali_Esterni/Verbale_Esterno_2024-10-18_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-10-18</p><p>v1.0</p></a></li>
+												<li><a href="docs/Candidatura/Verbali_Esterni/Verbale_Esterno_2024-10-17_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Esterno 2024-10-17</p><p>v1.0</p></a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<h3>Verbali Interni</h3>
+										<div class="listCont">
+											<div class="line"></div>
+											<ul>
+												<li><a href="docs/Candidatura/Verbali_Interni/Verbale_Interno_2024-10-24_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2024-10-24</p><p>v1.0</p></a></li>
+												<li><a href="docs/Candidatura/Verbali_Interni/Verbale_Interno_2024-10-22_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2024-10-22</p><p>v1.0</p></a></li>
+												<li><a href="docs/Candidatura/Verbali_Interni/Verbale_Interno_2024-10-21_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2024-10-21</p><p>v1.0</p></a></li>
+												<li><a href="docs/Candidatura/Verbali_Interni/Verbale_Interno_2024-10-17_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2024-10-17</p><p>v1.0</p></a></li>
+												<li><a href="docs/Candidatura/Verbali_Interni/Verbale_Interno_2024-10-15_V1.0.pdf"  target="_blank" rel="noopener noreferrer" ><p>Verbale Interno 2024-10-15</p><p>v1.0</p></a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section style="padding: 2rem;">
+							<div class="row" style="text-align: center;">
+								<div class="col-4 col-12-medium">
+									<h4 style="text-align: center;">SweeTen Team</h4>
+									<p style="text-align: center;">Ingegneria del Software 2024-25<br>Università degli Studi di Padova</p>
+								</div>
+								<div class="col-4 col-12-medium">
+									<h4 style="text-align: center;">Contatti</h4>
+									<a href="mailto:sweetenteam@gmail.com" style="text-align: center;">sweetenteam@gmail.com</a>
+								</div>
+								<div class="col-4 col-12-medium">
+									<h4 style="text-align: center;">Repository</h4>
+									<a style="text-align: center;" href="https://github.com/SweeTenTeam/Docs" target="_blank" rel="noopener noreferrer">
+										<i class="fab fa-github"></i> GitHub
+									</a>
+								</div>
+							</div>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>Copyright &copy; 2024-2025</li><li>by SweeTen Team - All rights reserved</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
